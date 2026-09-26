@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>HAKi Lab — Haptic Auditory Kinematic Laboratory</title>
-<meta name="description" content="The HAKi Lab at Zayed University, Abu Dhabi, studies how people use sound, touch and body sense to plan and control their movements.">
+<meta name="description" content="The HAKi Lab at Zayed University, Abu Dhabi, studies how people use sound, touch, and body sense to plan and control their movements.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='18' fill='none' stroke='%232d4bdc' stroke-width='3'/%3E%3Cpath d='M6 20c4-8 8-8 14 0s10 8 14 0' fill='none' stroke='%232d4bdc' stroke-width='3'/%3E%3C/svg%3E">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -156,6 +156,9 @@ h3{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;line-height:1.2}
 .contact dt,.contact dd{padding:1rem 0;border-bottom:1px solid var(--line)}
 .contact dt{color:var(--grey)}
 .contact dd a{color:var(--blue)}
+.map-link{display:inline-flex;align-items:center;gap:.4rem;margin-top:.75rem;color:var(--blue);text-decoration:none;font-weight:500}
+.map-link svg{width:1.1rem;height:1.1rem;flex:none}
+.map-link:hover{text-decoration:underline}
 footer{padding:2rem 0 calc(2rem + env(safe-area-inset-bottom,0px));font-size:.9rem;color:var(--grey)}
 footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
 
@@ -268,21 +271,21 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
           <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="6" fill="#2d4bdc"/><circle cx="40" cy="40" r="18" fill="none" stroke="#000" stroke-width="1.5"/><circle cx="40" cy="40" r="30" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="3 4"/></svg>
           <div>
             <h3>Hearing where things are</h3>
-            <p>How accurately can we reach toward a sound? We measure how auditory targets guide the hand, and whether training the arm can restore the ability to localise sounds after it has been disrupted.</p>
+            <p>How accurately can we reach toward a sound? We measure how auditory targets guide the hand, and whether training the arm can restore the ability to localize sounds after it has been disrupted.</p>
           </div>
         </article>
         <article class="theme">
           <svg viewBox="0 0 80 80" aria-hidden="true"><rect x="14" y="30" width="22" height="22" fill="none" stroke="#000" stroke-width="1.5"/><path d="M36 41h14" stroke="#000" stroke-width="1.5"/><path d="M50 30v22M58 30v22" stroke="#2d4bdc" stroke-width="3"/></svg>
           <div>
             <h3>Haptics, sounds and reaching</h3>
-            <p>Haptic and auditory senses provide us with relevant information about the location of an object. We study how the brain combines these sensory information to perform skilled movements.</p>
+            <p>Haptic and auditory senses provide us with relevant information about the location of an object. We study how the brain combines this sensory information to reach or grasp them</p>
           </div>
         </article>
         <article class="theme">
           <svg viewBox="0 0 80 80" aria-hidden="true"><path d="M8 62C22 62 28 20 40 20S58 62 72 62" fill="none" stroke="#999" stroke-width="1.5"/><path d="M20 62C30 62 34 12 42 12S54 62 64 62" fill="none" stroke="#2d4bdc" stroke-width="2.5"/><path d="M8 66h64" stroke="#000" stroke-width="1.5"/></svg>
           <div>
             <h3>Integration, timing and adaptation</h3>
-            <p>When is sensory information used, while preparing a movement, or during it? We model how sensory informatin are used and updated over time, and how movements adapt when these change.</p>
+            <p>When is sensory information used, while preparing a movement, or during it? We model how sensory information is used and updated over time, and how movements adapt when these change.</p>
           </div>
         </article>
       </div>
@@ -299,7 +302,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
     </div>
     <div class="sec-body">
       <div class="methods">
-        <div class="method"><h3>Motion capture</h3><p>An OptiTrack system records hand and finger movements in three dimensions with sub-millimetre precision.</p></div>
+        <div class="method"><h3>Motion capture</h3><p>A motion capture system records hand and finger movements in three dimensions with sub-millimeter precision.</p></div>
         <div class="method"><h3>Markerless tracking</h3><p>A multi-camera pipeline estimates body pose from video, for studies outside the lab and with older adults.</p></div>
         <div class="method"><h3>Custom hardware</h3><p>Arduino-based devices and custom-made 3D printed prototypes to study humans' perception and action.</p></div>
         <div class="method"><h3>Bayesian modelling</h3><p>Bayesian statistics and multilevel linear and non-linear modelling.</p></div>
@@ -320,17 +323,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
         <a class="build-card" href="https://www.youtube.com/@ivancamponogara6578">
           <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="2" y="8" width="36" height="24" rx="6" fill="#2d4bdc"/><path d="M17 14l9 6-9 6z" fill="#fff"/></svg>
           <h3>Video tutorials</h3>
-          <p>Step-by-step guides to building low-cost research instruments, from Arduino-based stimulus devices to synchronised data acquisition.</p>
+          <p>Step-by-step guides to building low-cost research instruments, from Arduino-based stimulus devices to data acquisition.</p>
           <span class="go">Watch on YouTube</span>
         </a>
         <a class="build-card" href="https://github.com/IvanHalen86">
           <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M13 12l-8 8 8 8M27 12l8 8-8 8M23 8l-6 24" fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
           <h3>Code</h3>
-          <p>Scripts for running experiments and analysing movement data, free to use and adapt in your own lab.</p>
+          <p>Scripts for running experiments and analyzing movement data, free to use and adapt in your own lab.</p>
           <span class="go">Browse on GitHub</span>
         </a>
       </div>
-      <!-- To feature specific videos later, send the video links and they can go here as thumbnails -->
+      <!-- To feature specific videos later, send the video links, and they can go here as thumbnails -->
     </div>
   </div>
 </section>
@@ -349,7 +352,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
           <h3>Dr. Ivan Camponogara</h3>
           <p class="role">Principal Investigator · Assistant Professor</p>
           <div class="prose">
-            <p>Ivan is a kinesiologist who studies how people merge several senses into the motor commands that plan and guide skilled movement. He received his PhD from the University of Verona in 2016 and now leads the HAKi Lab at Zayed University, where he also teaches in the psychology programme.</p>
+            <p>Ivan is a kinesiologist who studies how people merge several senses into the motor commands that plan and guide skilled movement. He received his PhD from the University of Verona and now leads the HAKi Lab at Zayed University, where he also teaches in the psychology program.</p>
           </div>
           <div class="links">
             <a href="https://scholar.google.com/citations?user=m7TGe_kAAAAJ&hl=en">Google Scholar</a>
@@ -363,7 +366,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
       </div>
 
       <!-- Lab members: copy one <div class="member"> block per person -->
-      <p class="team-note">Zayed University undergraduates can join the lab each semester to help with data collection. <a href="#join">Find out how to join</a>.</p>
+      <p class="team-note">Zayed University undergraduates are welcome to join the lab each semester to help with data collection. <a href="#join">Find out how to join</a>.</p>
 
       <div class="collab">
         <h3>Active collaborations</h3>
@@ -510,7 +513,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
     <div class="sec-body">
       <dl>
         <dt>Email</dt><dd><a href="mailto:Z11197@zu.ac.ae">Z11197@zu.ac.ae</a></dd>
-        <dt>Lab</dt><dd>HAKi Lab, College of Natural and Health Sciences<br>Zayed University, Abu Dhabi campus<br>United Arab Emirates</dd>
+        <dt>Lab</dt>
+        <dd>HAKi Lab, College of Natural and Health Sciences<br>Zayed University, Abu Dhabi campus<br>United Arab Emirates
+          <a class="map-link" href="https://maps.app.goo.gl/Sug8NjsZmCwfmpgAA" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.6 7-12a7 7 0 1 0-14 0c0 5.4 7 12 7 12z" fill="#2d4bdc"/><circle cx="12" cy="10" r="2.6" fill="#fff"/></svg>
+            View on Google Maps
+          </a>
+        </dd>
       </dl>
     </div>
   </div>
