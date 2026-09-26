@@ -363,11 +363,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
       </div>
 
       <!-- Lab members: copy one <div class="member"> block per person -->
-      <div class="team">
-        <div class="member"><b>Student name</b><span>Undergraduate researcher</span></div>
-        <div class="member"><b>Student name</b><span>Undergraduate researcher</span></div>
-        <div class="member"><b>This could be you</b><span><a href="#join">See the open position</a></span></div>
-      </div>
+      <p class="team-note">Undergraduates from Zayed University are welcome to join the lab every semester, 
+        working on data collection. <a href="#join">Find out how to join</a>.</p>
 
       <div class="collab">
         <h3>Active collaborations</h3>
@@ -381,7 +378,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
     </div>
   </div>
 </section>
-
+  
+.team-note{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--ink);max-width:38em;color:#333}
+.team-note a{color:var(--blue)}
+  
 <!-- ================= PUBLICATIONS ================= -->
 <!-- To add a paper: copy one <li>...</li> into the right year (or copy a whole <div class="year"> for a new year) -->
 <section class="block" id="publications">
